@@ -432,6 +432,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1143347823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1143347825}
+  - component: {fileID: 1143347824}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1143347824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143347823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 678ecd80d4f97d94bb531117e09c9dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Control
+  a: 3
+  b: 10
+  fruit: "\uC6A9\uACFC"
+--- !u!4 &1143347825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143347823}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4119, y: 3.11929, z: 2.788}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1379103990
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19af366ad23a1ca4283844780ec6b26e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Study
+  say: 
 --- !u!65 &1379103992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -550,8 +598,8 @@ Transform:
   m_GameObject: {fileID: 1379103990}
   serializedVersion: 2
   m_LocalRotation: {x: -0.339109, y: 0.6306092, z: -0.21667284, w: 0.6636189}
-  m_LocalPosition: {x: 1.65, y: 2.67, z: 2.2}
-  m_LocalScale: {x: 2.6311812, y: 1.3447, z: 2.281687}
+  m_LocalPosition: {x: 5.99, y: 3.45, z: 2.09}
+  m_LocalScale: {x: 2.6311812, y: 1.5145355, z: 2.281687}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -564,3 +612,4 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1379103995}
+  - {fileID: 1143347825}
