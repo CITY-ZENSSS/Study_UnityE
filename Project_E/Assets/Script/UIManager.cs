@@ -9,9 +9,9 @@ public class UIManager : MonoBehaviour
 
     public void OpenNoticePopup()
     {
-        GameObject newPopup = Instantiate(popupPrefab, canvasTransform);
-        Popup popupScript = newPopup.GetComponent<Popup>();
+        GameObject newPopup = Instantiate(popupPrefab, canvasTransform); // 생성한 팝업 변수
+        Popup popupScript = newPopup.GetComponent<Popup>(); // 팝업 스크립트 변수
 
-        popupScript.SetContent(this.TitleText, this.ContentText);
+        popupScript.SetContent(this.TitleText, this.ContentText); // 팝업 내용 설정
     }
 }
